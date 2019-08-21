@@ -1,0 +1,22 @@
+{
+    "name": "alxbbarbosa/estoque",
+    "authors": [
+        {
+            "name": "Alexandre Bezerra Barbosa",
+            "email": "alxbbarbosa@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Api\\Contracts\\": "contracts/",
+            "Api\\Models\\": "models/",
+            "Api\\Controllers\\": "controllers/",
+            "Api\\Http\\": "http/",
+            "Api\\Database\\": "database/"
+        },
+        "files": [
+            "./helpers/basic_functions.php"
+        ]
+    }
+}
