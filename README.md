@@ -37,7 +37,7 @@ Além disso, você precisa configurar as definições do seu servidor na classe 
 
 ```php
 
-	  private static $conn     = null;
+    private static $conn     = null;
     private static $host     = 'localhost';
     private static $dbname   = 'api_estoque_1';
     private static $username = 'root';
